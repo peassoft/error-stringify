@@ -1,0 +1,21 @@
+{
+  "name": "@peassoft/error-stringify",
+  "version": "1.0.0",
+  "description": "Stringify an Error object",
+  "type": "module",
+  "exports": "./dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "eslint ./ && npm run tsc && vitest run",
+    "tsc": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@memnrev/eslint-v9-config": "^0.4.0",
+    "@total-typescript/ts-reset": "^0.6.1",
+    "eslint": "^9.39.4",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.5"
+  }
+}
