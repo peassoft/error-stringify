@@ -13,5 +13,5 @@ export default [
       },
     },
   },
-  ...mnrConfig.configs.react,
+  ...mnrConfig.configs.node,
 ];

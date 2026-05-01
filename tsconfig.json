@@ -9,9 +9,8 @@
     "noUncheckedSideEffectImports": true,
 
     "target": "es2025",
-    "jsx": "react-jsx",
-    "module": "ES2022",
-    "moduleResolution": "Bundler",
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
     "isolatedModules": true,
     "verbatimModuleSyntax": true
   }
