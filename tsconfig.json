@@ -8,10 +8,11 @@
     "noImplicitReturns": true,
     "noUncheckedSideEffectImports": true,
 
-    "target": "es2025",
+    "target": "es2024",
     "module": "nodenext",
     "moduleResolution": "nodenext",
     "isolatedModules": true,
+    "esModuleInterop": true,
     "verbatimModuleSyntax": true
   }
 }

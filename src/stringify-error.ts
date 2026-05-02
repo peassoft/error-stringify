@@ -1,3 +1,8 @@
+/**
+ * Stringify an Error or DOMException object
+ *
+ * @public
+ */
 export default function stringifyError(err: Error | DOMException): string {
   return stringify(err, '');
 }
