@@ -1,6 +1,6 @@
 {
   "name": "@peassoft/error-stringify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An utility function to stringify an Error or DOMException object",
   "type": "module",
   "exports": "./dist/index.js",

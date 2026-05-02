@@ -33,7 +33,7 @@ function stringify(
       (prefix ? `${prefix} ` : '') +
       (rows[0] || '');
 
-    for (let i = 1; i < spaces.length; i++) {
+    for (let i = 1; i < rows.length; i++) {
       result += `\n${indent(spaces, indentLevel)}${rows[i]}`;
     }
   }
